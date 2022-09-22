@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    display:flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    justify-self: flex-end;
+    font-size: 18px;
+}
+.header-links a {
+    color: #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.subtitle {
+    font-size: 18x;
+    color: #E5E7EB;
+}
