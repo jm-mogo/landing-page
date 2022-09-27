@@ -31,6 +31,7 @@ a {
 .information,
 .quote,
 .banner-action,
+.banner,
 .footer {
     padding-left: 200px;
     padding-right: 200px;
@@ -105,6 +106,50 @@ a {
     color: #1F2937;
     font-size: 36px;
     font-family: Roboto-light;
+}
+
+.banner-blue {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 32px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.banner-blue h2 {
+    color: #F9FAF8;
+    font-family: Roboto-light;
+    font-size: 24px;
+    flex-shrink:0;
+}
+
+.banner-blue p { 
+    margin-top: -20px;
+    font-family: Roboto-light;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-shrink:0;
+}
+
+.banner-left {
+    justify-self:flex-start;
+}
+
+.banner-button {
+    justify-self: flex-end;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius:10px; 
+    padding:7px;
+    min-height:20px; 
+    min-width: 120px;
 }
 
 .footer {
