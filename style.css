@@ -99,13 +99,21 @@ a {
 .quote  {
     background-color: #E5E7EB;
     padding-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 80px
 }
 
 .quote p {
     color: #1F2937;
     font-size: 36px;
     font-family: Roboto-light;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+#muhammad {
+    margin-top: -30px;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 28px;
 }
 
 .banner-blue {
